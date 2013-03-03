@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 section {
@@ -43,17 +43,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 3em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   text-align: center;
   font-weight: normal;
   color: $grayLight;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.7em;
+  margin-left: 400px;
+  padding-bottom: 15px;
 }
 
 
@@ -62,7 +64,7 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 3.5em;
   color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
