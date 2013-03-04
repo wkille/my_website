@@ -3,8 +3,9 @@ MyWebsite::Application.routes.draw do
   root to: 'static_pages#home'
   match '/about',   to: 'static_pages#about'
   match '/contact',   to: 'static_pages#contact'
-  match '/product',   to: 'static_pages#product'
-  match '/prices',   to: 'static_pages#prices'
+  match '/package',   to: 'static_pages#package'
+  match '/submit',   to: 'static_pages#submit'
+  match '/responsive',   to: 'static_pages#responsive'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

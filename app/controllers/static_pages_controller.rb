@@ -8,9 +8,12 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
-  def product
+  def package
   end
 
-  def prices
+  def submit
+  end
+
+  def responsive
   end
 end
