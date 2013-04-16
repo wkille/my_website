@@ -1,22 +1,11 @@
-<% provide(:title, 'Web development and hosting package') %>
-  <h2>The proof of the pudding is in the eating</h2>
-  <div class="row-fluid">
-  	<div class="span6">
-      <p>Picture of turnip pudding</p>
-	  </div>
-	  <div class="span6">
-      <%= render 'layouts/product' %>
-    </div>
+<% provide(:title, 'creating fans') %>
+<div class="row-fluid">
+  <div class="span3">
   </div>
-  <div class="row-fluid">
-  	<div class="span6">
-  		<%= render 'layouts/features' %>
-  	</div>
-  	<div class="span6">
-  		<p>price picture</p>
-      <div class="offset4">
-        <%= link_to "get a Turnip website", submit_path, 
-                   class: "btn btn-large btn-primary" %>
-      </div>
-  	</div>
+  <div class="span6">
+    <%= render 'layouts/newsletteradvantages' %>
+    <%= link_to "can I help you?", submit_path, class: "btn btn-large btn-primary" %>
   </div>
+  <div class="span3">
+  </div>
+</div>
